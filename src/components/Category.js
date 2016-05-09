@@ -13,6 +13,8 @@ class Category extends React.Component {
     this.icon = props.icon;
   }
 
+
+
   render() {
     const playArrow = (
       <svg viewBox="0 0 24 24" height="100%" width="100%" preserveAspectRatio="xMidYMid meet" className="fit"><g><path d="M8 5v14l11-7z"></path></g></svg>
@@ -21,6 +23,16 @@ class Category extends React.Component {
     const styles = {
       tile: {
         position: 'absolute'
+      },
+      img: {
+        pointerEvents: 'none',
+        display: 'block',
+        height: 'auto',
+        maxWidth: '65%',
+        maxHeight: '100%',
+        border: 0,
+        marginLeft: 'auto',
+        marginRight: 'auto'
       }
     };
 
@@ -30,9 +42,7 @@ class Category extends React.Component {
         <div className="tile flex auto layout vertical">
           <div className="flex auto relative">
             <div className="fit layout vertical center center-justified">
-              <div className="category-bg-wrapper">
-                <CoreIcon name={this.name} className="core-icon category-tile-bg fit" icon={this.icon} />
-              </div>
+              <img src={this.icon} name={this.name} className="core-icon" style={styles.img}/>
             </div>
           </div>
           <div className="cat-name theme-bg horizontal center layout hero-id">
@@ -51,7 +61,7 @@ Category.propTypes = {
   name: React.PropTypes.string.isRequired,
   title: React.PropTypes.string.isRequired,
   theme: React.PropTypes.string,
-  icon: React.PropTypes.object
+  icon: React.PropTypes.string
 };
 
 Category.defaultProps = {

@@ -75,7 +75,7 @@
 }
 
 .category-tile-bg {
-  position: absolute !important;
+  position: relative;
 }
 
 .category-bg-wrapper {
@@ -129,6 +129,12 @@
 @media screen and (min-width: 900px)  {
   .category-list {
     top: 66px;
+  }
+
+  .cat-name {
+    height: 52px;
+    padding: 0 18px;
+    font-size: 14px;
   }
 
   .wide .category-item > .tile {

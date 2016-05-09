@@ -8,182 +8,171 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 */
 
 /* yellow theme */
-/* yellow theme */
-.yellow-theme /deep/ .theme-bg,
-.yellow-theme.theme-bg {
+.yellow-theme .theme-bg {
   background-color: #ffeb3b;
   color: #616161;
 }
 
-.yellow-theme /deep/ .theme-bg-a,
-.yellow-theme.theme-bg-a {
+.yellow-theme .theme-bg-a {
   background-color: #ffff8d;
 }
 
-.yellow-theme /deep/ .theme-color {
+.yellow-theme .theme-color {
   color: #616161;
 }
 
-.yellow-theme /deep/ .theme-primary-color {
+.yellow-theme .theme-primary-color {
   color: #ffeb3b;
 }
 
-.yellow-theme /deep/ .theme-icon {
+.yellow-theme .theme-icon {
   color: #ffeb3b;
 }
 
-.yellow-theme /deep/ .theme-border-color {
+.yellow-theme .theme-border-color {
   border-color: #ffeb3b;
 }
 
-.yellow-theme /deep/ paper-progress::shadow #progressContainer {
+.yellow-themepaper-progress::shadow #progressContainer {
   background-color: transparent;
 }
 
-.yellow-theme /deep/ paper-progress::shadow #activeProgress {
+.yellow-themepaper-progress::shadow #activeProgress {
   background-color: #ffeb3b;
 }
 
 /* green theme */
-.green-theme /deep/ .theme-bg,
-.green-theme.theme-bg {
+.green-theme .theme-bg {
   background-color: #1de9b6;
   color: #616161;
 }
 
-.green-theme /deep/ .theme-bg-a,
-.green-theme.theme-bg-a {
+.green-theme .theme-bg-a {
   background-color: #b9f6ca;
 }
 
-.green-theme /deep/ .theme-color {
+.green-theme .theme-color {
   color: #616161;
 }
 
-.green-theme /deep/ .theme-icon {
+.green-theme .theme-icon {
   color: #1de9b6;
 }
 
-.green-theme /deep/ .theme-primary-color {
+.green-theme .theme-primary-color {
   color: #1de9b6;
 }
 
-.green-theme /deep/ .theme-border-color {
+.green-theme .theme-border-color {
   border-color: #1de9b6;
 }
 
-.green-theme /deep/ paper-progress::shadow #progressContainer {
+.green-themepaper-progress::shadow #progressContainer {
   background-color: transparent;
 }
 
-.green-theme /deep/ paper-progress::shadow #activeProgress {
+.green-themepaper-progress::shadow #activeProgress {
   background-color: #1de9b6;
 }
 
 /* red theme */
-.red-theme /deep/ .theme-bg,
-.red-theme.theme-bg {
+.red-theme .theme-bg {
   background-color: #ff5252;
   color: #fff;
 }
 
-.red-theme /deep/ .theme-bg-a,
-.red-theme.theme-bg-a {
+.red-theme .theme-bg-a {
   background-color: #ff8a80;
 }
 
-.red-theme /deep/ .theme-color {
+.red-theme .theme-color {
   color: #fff;
 }
 
-.red-theme /deep/ .theme-icon {
+.red-theme .theme-icon {
   color: #ff5252;
 }
 
-.red-theme /deep/ .theme-primary-color {
+.red-theme .theme-primary-color {
   color: #ff5252;
 }
 
-.red-theme /deep/ .theme-border-color {
+.red-theme .theme-border-color {
   border-color: #ff5252;
 }
 
-.red-theme /deep/ paper-progress::shadow #progressContainer {
+.red-themepaper-progress::shadow #progressContainer {
   background-color: transparent;
 }
 
-.red-theme /deep/ paper-progress::shadow #activeProgress {
+.red-themepaper-progress::shadow #activeProgress {
   background-color: #ff5252;
 }
 
 /* blue theme */
-.blue-theme /deep/ .theme-bg,
-.blue-theme.theme-bg {
+.blue-theme .theme-bg {
   background-color: #03A9F4;
   color: #fff;
 }
 
-.blue-theme /deep/ .theme-bg-a,
-.blue-theme.theme-bg-a {
+.blue-theme .theme-bg-a {
   background-color: #84ffff;
 }
 
-.blue-theme /deep/ .theme-color {
+.blue-theme .theme-color {
   color: #fff;
 }
 
-.blue-theme /deep/ .theme-icon {
+.blue-theme .theme-icon {
   color: #03A9F4;
 }
 
-.blue-theme /deep/ .theme-primary-color {
+.blue-theme .theme-primary-color {
   color: #03A9F4;
 }
 
-.blue-theme /deep/ .theme-border-color {
+.blue-theme .theme-border-color {
   border-color: #03A9F4;
 }
 
-.blue-theme /deep/ paper-progress::shadow #progressContainer {
+.blue-themepaper-progress::shadow #progressContainer {
   background-color: transparent;
 }
 
-.blue-theme /deep/ paper-progress::shadow #activeProgress {
+.blue-themepaper-progress::shadow #activeProgress {
   background-color: #03A9F4;
 }
 
 /* purple theme */
-.purple-theme /deep/ .theme-bg,
-.purple-theme.theme-bg {
+.purple-theme .theme-bg {
   background-color: #7e57c2;
   color: #fff;
 }
 
-.purple-theme /deep/ .theme-bg-a,
-.purple-theme.theme-bg-a {
+.purple-theme .theme-bg-a {
   background-color: #b388ff;
 }
 
-.purple-theme /deep/ .theme-color {
+.purple-theme .theme-color {
   color: #fff;
 }
 
-.purple-theme /deep/ .theme-icon {
+.purple-theme .theme-icon {
   color: #7e57c2;
 }
 
-.purple-theme /deep/ .theme-primary-color {
+.purple-theme .theme-primary-color {
   color: #7e57c2;
 }
 
-.purple-theme /deep/ .theme-border-color {
+.purple-theme .theme-border-color {
   border-color: #7e57c2;
 }
 
-.purple-theme /deep/ paper-progress::shadow #progressContainer {
+.purple-themepaper-progress::shadow #progressContainer {
   background-color: transparent;
 }
 
-.purple-theme /deep/ paper-progress::shadow #activeProgress {
+.purple-themepaper-progress::shadow #activeProgress {
   background-color: #7e57c2;
 }

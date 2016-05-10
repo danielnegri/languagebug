@@ -24,17 +24,17 @@ class CategoryList extends React.Component {
       <div id="categories" name="categories" className="vertical layout">
         <div name="categories-panel" className="categories-panel flex auto">
           <div name="category-list" className="category-list content wide tile-cascade fade" data-selected="0">
-            <Category name="adjectives" title="Adjectives" theme="leaderboard" icon={bug01} />
-            <Category name="food" title="Food & Drink" theme="green-theme" icon={bug02} />
-            <Category name="knowledge" title="General Knowledge" theme="yellow-theme" icon={bug03} />
-            <Category name="history" title="History" theme="blue-theme" icon={bug04} />
-            <Category name="geography" title="Geography" theme="red-theme" icon={bug05} />
-            <Category name="science" title="Science" theme="green-theme" icon={bug06} />
-            <Category name="tvmovies" title="TV & Movies" theme="purple-theme" icon={bug07} />
-            <Category name="music" title="Music" theme="blue-theme" icon={bug08} />
-            <Category name="entertainment" title="Entertainment" icon={bug09} />
-            <Category name="sports" title="Sports" theme="purple-theme" icon={bug03} />
-            <Category name="profile" title="Profile" theme="profile" icon={bug07} />
+            <Category name="yourself" title="Yourself" theme="yellow-theme" icon={bug03} />
+            <Category name="family" title="Family" theme="green-theme" icon={bug02} />
+            <Category name="where" title="Where?" theme="leaderboard" icon={bug01} />
+            <Category name="how-often" title="How often?" theme="blue-theme" icon={bug04} />
+            <Category name="house" title="House" theme="red-theme" icon={bug05} />
+            <Category name="numbers" title="Numbers" theme="green-theme" icon={bug06} />
+            <Category name="adjectives" title="Adjectives" theme="purple-theme" icon={bug07} />
+            <Category name="with-whom" title="With whom?" theme="blue-theme" icon={bug08} />
+            <Category name="shortcuts" title="Shortcuts" icon={bug09} />
+            <Category name="greetings" title="Greetings" theme="purple-theme" icon={bug03} />
+            <Category name="building-blocs" title="Building blocs" theme="profile" icon={bug07} />
           </div>
         </div>
       </div>

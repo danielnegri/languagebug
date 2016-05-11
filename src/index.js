@@ -25,7 +25,7 @@ const AppRoutes = (
   <Route path="/" component={App}>
     <IndexRoute component={Dashboard} />
     <Route path="/about" components={About} />
-    <Route path="/practice" components={Practice} />
+    <Route path="/practice/:practiceId" components={Practice} />
     <Route path="/profile" components={Profile} />
   </Route>
 );
